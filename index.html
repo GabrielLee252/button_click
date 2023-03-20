@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click them buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ------------------nav bar--------------------- -->
+    <div class="nav">
+        <div class="navL">
+            <h1 class="nav-title">Dojonary</h1>
+        </div>
+        <div class="search">
+            <input type="text" id="search" name="search" placeholder="Search">
+        </div>
+        <div class="navR">
+            <button onclick="logIn(this)">Login</button>
+        </div>
+    </div>
+<!-- -----------------------end nav bar ------------------- -->
+<!-- -----------------------body -------------------------- -->
+    <div class="container">
+        <div class="col1">
+            <!-- start column 1---- -->
+            <div class="ninja1">
+                <div class="ninja-head">
+                    <h1 class="ninja">ninja</h1>
+                </div>
+                <div class="nin-infoL">
+                    <h4 class="noun">noun</h4>
+                    <p class="plural">Plural: ninjas</p>
+                    <button onclick="likes(this)">13 likes</button>
+                </div>
+                <div class="nin-infoR">
+                    <p>A practitioner skilled in the Japanese art of ninjutsu</p>
+                </div>
+            </div>
+            <div class="ninja2">
+                <div class="ninja-head">
+                    <h1 class="ninja">ninja</h1>
+                </div>
+                <div class="nin-infoL">
+                    <h4 class="noun">noun</h4>
+                    <p class="plural">Plural: ninjas</p>
+                    <button onclick="likes(this)">37 likes</button>
+                </div>
+                <div class="nin-infoR">
+                    <p>A programmer who breaks down problems with zen-like focus</p>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------end of column 1 ---------->
+        <!-- -----------------start of column 2 ------------------>
+        <div class="col2">
+            <div class="add">
+                <p>Dojonary is defined by <b>YOU</b></p>
+                <button onclick="addDef(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------------script for js ----------------------- -->
+<script src="script.js"></script>
+</body>
+</html>
