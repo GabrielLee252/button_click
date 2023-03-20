@@ -1,3 +1,7 @@
-function logIn(signIn){
-    signIn.innerHTML = "Logout"
+function logIn(element){
+    element.innerHTML = "Logout"
+}
+
+function addDef(element){
+    element.remove();
 }
